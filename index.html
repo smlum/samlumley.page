@@ -4,78 +4,131 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sam Lumley</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Sam Lumley</h1>
-    <address>
-        McGill University
-        <a href="mailto:sam.lumley@mail.mcgill.ca">sam.lumley@mail.mcgill.ca</a>
-        <a target="_blank" href="/cv-slumley.pdf">CV</a>
-        <a target="_blank" href="https://github.com/samFredLumley">GitHub</a>
-        <a target="_blank" href="https://www.linkedin.com/in/samlumley/">LinkedIn</a>
-    </address>
+    <section class="section has-background-info-light">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-half">
+                    <h1 class="title is-1 has-text-centered">Sam Lumley</h1>
+                    <address class="has-text-centered">
+                        <p>
+                            McGill University
+                            <a href="mailto:sam.lumley@mail.mcgill.ca">sam.lumley@mail.mcgill.ca</a>
+                        </p>
+                        
+                        <p>
+                            <a target="_blank" href="/cv-slumley.pdf">CV</a>
+                            <a target="_blank" href="https://github.com/samFredLumley">GitHub</a>
+                            <a target="_blank" href="https://www.linkedin.com/in/samlumley/">LinkedIn</a>
+                        </p>
+                        
+                    </address>
+                    <div class="container has-text-centered">
+                        <p>
+                            <a href="#about">About</a>
+                            <a href="#news">News</a>
+                            <a href="#projects">Projects</a>
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+        
+    </section>
     <main>
-        <section>
-            <h2>About</h2>
-            <img src="sam-mug.jpg" alt="picture of a guy in a park" style="width: 300px;">
-            <p>I'm a social science researcher living in Montreal, Canada. I'm an MSc student in Renee Sieber's GIScience lab at McGill University.</p>
-        </section>
-        <section>
-            <h2>News</h2>
-            <table>
-                <tr>
-                    <td>Sep 2020</td>
-                    <td>Co-authored a <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/1468-5973.12311">paper</a> on natural language processing for crisis management.</td>
-                </tr>
-                <tr>
-                    <td>Mar 2020</td>
-                    <td>Developed a <a href="https://github.com/samFredLumley/AWS-transcription-buddy">web app</a> for transcribing audio.</td>
-                </tr>
-                <tr>
-                    <td>Oct 2019</td>
-                    <td>Became the Project Manager for a machine learning Environment Canada research grant.</td>
-                </tr>
-                <tr>
-                    <td>May 2019</td>
-                    <td>Designed and developed an <a href="https://sprawlmap.org/">interactive map</a> of urban sprawl with IHSP.</td>
-                </tr>
-                <tr>
-                    <td>Apr 2019</td>
-                    <td>Designed and taught a <a href="https://gic.geog.mcgill.ca/events/introduction-to-git/">git workshop</a>.</td>
-                </tr>
-                <tr>
-                    <td>Apr 2019</td>
-                    <td>Runner-up for <a href="http://ceur-ws.org/Vol-2323/SKI-Canada-2019-7-1-5.pdf">best paper</a> at SKI Canada, Banff ⛷</td>
-                </tr>
-                <tr>
-                    <td>Oct 2018</td>
-                    <td>Became a BLUE Scholar at <a href="https://building21.ca/">b21</a> developed based on a <a href="https://samfredlumley.github.io/earth2.0/website/">proposal website</a>.</td>
-                </tr>
-                <tr>
-                    <td>May 2018</td>
-                    <td>Built a <a href="https://github.com/samFredLumley/netcdf-vis">web app</a> to visualise netCDF climate data with <a href="https://twitter.com/hashtag/neogeoweb?lang=en">#neogeoweb</a>.</td>
-                </tr>
-                <tr>
-                    <td>Apr 2018</td>
-                    <td>Presented a <a href="https://aag.secure-abstracts.com/AAG Annual Meeting 2018/abstracts-gallery/16528">poster</a> on the use of Mercator in web maps at the AAG conference, New Orleans.</td>
-                </tr>
-                <tr>
-                    <td>Dec 2017</td>
-                    <td>Became a Ski Instructor at Rod Roy ⛷</td>
-                </tr>
-                <tr>
-                    <td>Dep 2017</td>
-                    <td>Started as a <a href="http://geothink.ca/author/sam-lumleymail-mcgill-ca/">Digital Journalist</a> at Geothink.ca.</td>
-                </tr>
-                <tr>
-                    <td>Aug 2017</td>
-                    <td>Sailed across the seas from London to Montreal 🍁</td>
-                </tr>
+        <section id="about" class="section has-background-warning-light">
+            <div class="container">
+                <div class="columns">
+                    <div class="column">
+                        <h2 class="title">About</h2>
                 
-            </table>
+                        <p>I'm a Master's student living in Montreal, Canada. Right now I'm writing up my thesis on climate change visualisation under Prof Renee Sieber at McGill University. 
+                        </p>
+                        <p>
+                            I also work part time as a Project Manager for an Environment Canada research grant, which is investigating the use of machine learning for guaging public reactions to extreme weather on social media.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <img src="sam-mug.jpg" alt="picture of a guy in a park" style="width: 300px;">
+                    </div>
+                </div>
+                
+
+            </div>
+            
         </section>
-        <section>
-            <h2>Projects</h2>
+        <section id="news" class="section has-background-success-light">
+            <div class="container">
+                <h2 class="title">News</h2>
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td>Sep 2020</td>
+                            <td>Co-authored a <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/1468-5973.12311">paper</a> on natural language processing for crisis management.</td>
+                        </tr>
+                        <tr>
+                            <td>Mar 2020</td>
+                            <td>Developed a <a href="https://github.com/samFredLumley/AWS-transcription-buddy">web app</a> for transcribing audio.</td>
+                        </tr>
+                        <tr>
+                            <td>Oct 2019</td>
+                            <td>Became the Project Manager for a machine learning Environment Canada research grant.</td>
+                        </tr>
+                        <tr>
+                            <td>May 2019</td>
+                            <td>Designed and developed an <a href="https://sprawlmap.org/">interactive map</a> of urban sprawl with IHSP.</td>
+                        </tr>
+                        <tr>
+                            <td>Apr 2019</td>
+                            <td>Designed and taught a <a href="https://gic.geog.mcgill.ca/events/introduction-to-git/">git workshop</a>.</td>
+                        </tr>
+                        <tr>
+                            <td>Apr 2019</td>
+                            <td>Runner-up for <a href="http://ceur-ws.org/Vol-2323/SKI-Canada-2019-7-1-5.pdf">best paper</a> at SKI Canada, Banff ⛷</td>
+                        </tr>
+                        <tr>
+                            <td>Oct 2018</td>
+                            <td>Became a BLUE Scholar at <a href="https://building21.ca/">b21</a> developed based on a <a href="https://samfredlumley.github.io/earth2.0/website/">proposal website</a>.</td>
+                        </tr>
+                        <tr>
+                            <td>May 2018</td>
+                            <td>Built a <a href="https://github.com/samFredLumley/netcdf-vis">web app</a> to visualise netCDF climate data with <a href="https://twitter.com/hashtag/neogeoweb?lang=en">#neogeoweb</a>.</td>
+                        </tr>
+                        <tr>
+                            <td>Apr 2018</td>
+                            <td>Presented a <a href="https://aag.secure-abstracts.com/AAG Annual Meeting 2018/abstracts-gallery/16528">poster</a> on the use of Mercator in web maps at the AAG conference, New Orleans.</td>
+                        </tr>
+                        <tr>
+                            <td>Dec 2017</td>
+                            <td>Became a Ski Instructor at Rod Roy ⛷</td>
+                        </tr>
+                        <tr>
+                            <td>Dep 2017</td>
+                            <td>Started as a <a href="http://geothink.ca/author/sam-lumleymail-mcgill-ca/">Digital Journalist</a> at Geothink.ca.</td>
+                        </tr>
+                        <tr>
+                            <td>Aug 2017</td>
+                            <td>Sailed across the seas from London to Montreal 🍁</td>
+                        </tr>
+                    </tbody>
+                    
+                
+                </table>
+            </div>
+            
+        </section>
+        <section id="projects" class="section has-background-info-light">
+            <div class="container">
+                <h2 class="title">Projects</h2>
+                <p>so many projects coming soon</p>
+            </div>
+            
         </section>
     </main>
 

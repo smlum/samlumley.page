@@ -1,0 +1,11 @@
+table, tr, tbody {
+    background-color: rgba(0, 0, 255, 0);
+}
+
+.table {
+    background-color: transparent;
+}
+
+body {
+    color: black !important;
+}
