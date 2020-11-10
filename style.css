@@ -9,3 +9,15 @@ table, tr, tbody {
 body {
     color: black !important;
 }
+
+.container {
+    max-width: 780px;
+}
+
+address {
+    font-style: normal;
+}
+
+p {
+    margin-bottom: 10px;
+}
