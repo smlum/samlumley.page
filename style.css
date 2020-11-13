@@ -2,8 +2,49 @@ table, tr, tbody {
     background-color: rgba(0, 0, 255, 0);
 }
 
+.navv {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+}
+
+i {
+    font-size: x-large;
+    padding: 5px;
+}
+
+img {
+    border: 10px dashed #f4c2e2;
+    float: right;
+}
+
+a {
+    color: black;
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+a:hover {
+    color: black;
+    background-color: rgba(255, 0, 0, 0.35);
+  }
+
+.no-bg {
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.no-bg:hover {
+    color: rgba(255, 0, 0, 0.35);
+    background-color: rgba(255, 0, 0, 0);
+  }
+
 .table {
     background-color: transparent;
+    color: black;
+}
+
+.table td {
+    border: none;
+    min-width: 100px;
 }
 
 body {
@@ -11,13 +52,44 @@ body {
 }
 
 .container {
-    max-width: 780px;
+    max-width: 780px !important;
 }
 
 address {
     font-style: normal;
 }
 
-p {
+body {
     margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
 }
+
+p {
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 10px;
+}
+
+.title {
+    color: rgb(41, 41, 41);
+}
+
+.is-pink {
+    background-color: #f4c2e2;
+}
+
+.is-green {
+    background-color: #c2f4e6;
+}
+
+.is-yellow {
+    background-color: #f4e4c2;
+}
+
+.is-blue {
+    background-color: #b7cbff;
+}
+
+.is-white {
+    background-color: rgb(231, 229, 231);
+}
+
