@@ -13,12 +13,73 @@ i {
     padding: 5px;
 }
 
-img {
-    border: 12px dashed #f4c2e2;
-    float: right;
-    position: relative;
-    top: 200px;
+body {
+    width: 100%;
 }
+
+.section {
+    padding: 3rem 3rem;
+}
+
+.links {
+    margin-right: 10px;
+}
+
+.head-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (max-width:768px) { 
+    /* for mobile */
+    .centre {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile {
+        margin-bottom: -50px;
+    }
+
+    /* .profile-section {
+        padding-top: 0rem;
+    } */
+
+    .title {
+        font-size: 2rem !important;
+    }
+
+    .head-section {
+        padding-bottom: 1rem !important;
+    }
+ } 
+
+ @media (min-width:769px) { 
+    /* for desktop */
+    .profile {
+        float: right;
+        /* bottom: 300px; */
+     }
+
+    .head-section {
+        height: 240px;
+    }
+    .head-bit {
+        padding-top: 3em;
+    }
+    .profile {
+        margin-top: -170px;
+        /* margin-right: 1rem; */
+    }
+ } 
+
+ .profile {
+    border: 12px dashed #f4c2e2;
+    width: 270px;
+ }
+
+
 
 a {
     color: black;
