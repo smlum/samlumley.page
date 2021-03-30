@@ -35,6 +35,10 @@ html {
     justify-content: space-between;
 }
 
+.title.is-5 {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+}
 
 @media (max-width:768px) { 
     /* for mobile */
@@ -51,9 +55,9 @@ html {
         padding-top: 0rem;
     } */
 
-    .title {
+    /* .title {
         font-size: 2rem !important;
-    }
+    } */
 
     .head-section {
         padding-bottom: 1rem !important;
@@ -80,7 +84,7 @@ html {
  } 
 
  .profile {
-    border: 12px dashed #f4c2e2;
+    border: 12px dashed #f5d6e9;
     width: 270px;
  }
 
@@ -142,7 +146,7 @@ p {
 }
 
 .is-pink {
-    background-color: #f4c2e2;
+    background-color: #f5d6e9;
 }
 
 .is-green {
@@ -150,11 +154,11 @@ p {
 }
 
 .is-yellow {
-    background-color: #f4e4c2;
+    background-color: #f5ecd8;
 }
 
 .is-blue {
-    background-color: #b7cbff;
+    background-color: #d1dcf8;
 }
 
 .is-white {
