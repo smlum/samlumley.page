@@ -2,6 +2,10 @@ table, tr, tbody {
     background-color: rgba(0, 0, 255, 0);
 }
 
+.table-section-end {
+    padding-bottom: 1.5em !important;
+}
+
 .navv {
     position: fixed;
     top: 20px;
