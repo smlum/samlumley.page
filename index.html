@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <script src="script.js"></script>
     <script async defer data-website-id="73ed6d4a-5d84-49fb-b411-652dad532729" src="https://umami-s.herokuapp.com/umami.js"></script>
 </head>
 <body>
@@ -77,7 +78,7 @@ I’m self-taught in web development, design and digital communication. My most 
         <section id="news" class="section is-blue">
             <div class="container">
                 <h2 class="title">News</h2>
-                <table class="table">
+                <table class="table first-table">
                     <tbody>
                         
                         <tr>
@@ -105,6 +106,7 @@ I’m self-taught in web development, design and digital communication. My most 
                             <td class="table-section-end">Mar 2020</td>
                             <td>Developed a <a target="_blank" href="https://scription.app">web app</a> for transcribing audio</td>
                         </tr>
+         
                         <tr>
                             <td>Oct 2019</td>
                             <td>Became the Project Manager for a <a target="_blank" href="https://github.com/smacawi">research grant</a> with Environment Canada</td>
@@ -121,6 +123,18 @@ I’m self-taught in web development, design and digital communication. My most 
                             <td class="table-section-end">Apr 2019</td>
                             <td>Runner-up for <a target="_blank" href="http://ceur-ws.org/Vol-2323/SKI-Canada-2019-7-1-5.pdf">best paper</a> at SKI Canada, Banff ⛷</td>
                         </tr>
+
+                    </tbody>
+                    
+                
+                </table>
+
+                    <button onclick="toggleTable()" class="button more-button">More <i class="fas fa-angle-down"></i></button>
+
+                    <div id="hidden-table" style="display: none;">
+                    <table class="table second-table">
+                        <tbody>
+
                         <tr>
                             <td>Oct 2018</td>
                             <td>Became a BLUE Scholar at <a target="_blank" href="https://building21.ca/">b21</a> and developed a <a target="_blank" href="https://smlum.github.io/earth2.0/website/">proposal website</a></td>
@@ -153,6 +167,7 @@ I’m self-taught in web development, design and digital communication. My most 
                     
                 
                 </table>
+            </div>
             </div>
             
         </section>

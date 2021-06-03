@@ -133,6 +133,26 @@ a:hover {
     min-width: 100px;
 }
 
+.first-table {
+    margin-bottom: 0 !important;
+}
+
+#hidden-table {
+    display: none;
+}
+
+.second-table {
+    margin-top: 1.5rem;
+}
+
+.more-button {
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
 body {
     color: black !important;
 }
